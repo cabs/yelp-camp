@@ -74,7 +74,6 @@ const sessionConfig = {
 app.use(session(sessionConfig));
 app.use(flash());
 app.use(helmet({ crossOriginEmbedderPolicy: false, contentSecurityPolicy: false }));
-//CLOUDINARY_URL=cloudinary://416612918439567:FKCnrWQh-C0qsIsQXAGj1j1_mH0@tastymango
 
 app.use(passport.initialize());
 app.use(passport.session());
